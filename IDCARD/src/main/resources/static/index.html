@@ -10,22 +10,66 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-        	<div class="container" style="margin-top: 150px;">
+        <div class="container" style="margin-top: 140px;">
 		<div class="row"
-			style="border: 5px yellowgreen solid; border-radius: 50px; width: 30%; margin: 0 auto; padding: 50px;">
+                     style="border: 5px #87CEEB solid; border-radius: 40px; width: 33%; margin: 0 auto; padding: 30px;">
 			<div class="col-sm-8">
-                            <h2 align="center" style="color: darkgreen" <div>Input Data Diri</div>
-                            
+                            <h1 align="center" style="background-color:#87CEEB" <div>Pendaftaran KTP</div>
+                            <th align=height:20px;" colspan="2" bgcolor="grey"> <font color="black" size="5">
                             <form action="/tampildata" method="post" enctype="multipart/form-data">
-                                Nama Lengkap  : <input type="text" name="varnama" placeholder="Masukkan nama" /><br><br>
-                                Tanggal Lahir : <input type="date" name="vartgl" placeholder="Masukkan Tanggal" /><br><br>
-                                Jenis Kelamin : <input type="text" name="varjk" placeholder="Jenis Kelamin" /><br><br>
-                                Alamat        : <input type="text" name="varalamat" placeholder="Masukkan Alamat" /><br><br>
-                                Agama         : <input type="text" name="varagama" placeholder="Agama" /><br><br>
-                                Pekerjaan     : <input type="text" name="varkerja" placeholder="Masukkan Pekerjaan" /><br><br>
-                                Kewarganegaraan : <input type="text" name="varnegara" placeholder="Masukkan Kewarganegaraan" /><br><br>
-                                Masukkan Foto : <input type="file" name="varfoto" placeholder="Masukkan foto" /><br><br>         
-                                <input type="submit" value="Submit" />
-                            </form>
+                                <table style="background-color: #87CEEB">
+                                    
+                                    <tr>
+                                        <td>Nama Lengkap</td><td>:</td>
+                                        <td><input type="text" size="25" name="varnama" placeholder="Masukkan nama"></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Tanggal Lahir</td><td>:</td>
+                                        <td><input type="date" size="25" name="vartgl" placeholder="Masukkan Tanggal"></td>
+                                    </tr>
+                                     <tr>
+                                        <td>Jenis Kelamin</td><td>:</td>
+                                        <td><select name="varjk">
+                                                <option>Pilih</option>
+                                                <option>Laki - laki</option>
+                                                <option>Perempuan</option></select>
+                                        </td>
+                                    </tr>
+                                     <tr>
+                                        <td>Alamat</td><td>:</td>
+                                        <td><input type="text" size="25" name="varalamat" placeholder="Masukkan Alamat"></td>
+                                    </tr>
+                                     <tr>
+                                        <td>Agama</td><td>:</td>
+                                        <td><select name="varagama">
+                                                <option>Pilih</option>
+                                                <option>Islam</option>
+                                                <option>Kristen</option>
+                                                <option>Khatolik</option>
+                                                <option>Hindu</option>
+                                                <option>Budha</option></select>
+                                        </td>
+                                    </tr>
+                                     <tr>
+                                        <td>Pekerjaan</td><td>:</td>
+                                        <td><input type="text" size="25" name="varkerja" placeholder="Masukkan Pekerjaan"></td>
+                                    </tr>
+                                     <tr>
+                                        <td>Kewarganegaraan</td><td>:</td>
+                                        <td><select name="varnegara">
+                                                <option>Pilih</option>
+                                                <option>WNI</option>
+                                                <option>WNA</option></select>
+                                        </td>
+                                    </tr>
+                                     <tr>
+                                        <td>Masukkan Foto</td><td>:</td>
+                                        <td><input type="file" size="25"  name="varfoto" placeholder="Masukkan foto"></td>
+                                    </tr>
+                                    <tr>
+                                        <td><br><input type="submit" value="Submit" ></td> 
+                                    </tr>
+                                </table>
+                                
     </body>
 </html>
