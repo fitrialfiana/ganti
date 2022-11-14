@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<html>
+    <head>
+        <title>KTP</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet"
+        <style type="text/css">
+          body {
+           font-family: Arial;
+          }
+          td {
+           padding: 100px;
+          }
+          table {
+           margin: auto;
+           margin-top: 150px;
+          }
+        </style>
+    </head>                 
+        <body bgcolor="#181a1c" >
+            <table border="0" width="400" cellpadding="0" cellspacing="0">
+             <tr bgcolor="#19bd9b">
+                 <th colspan="20" align="center" width="90%">Kartu Tanda Penduduk</a></td>
+             </tr>
+             
+             <tr bgcolor="#e7e7e7">
+              <td th:text="${inama}"></d>
+              <td rowspan="7"><img alt="" th:src="${ifoto}" width="100" height="100"></td>
+             </tr>
+             
+             <tr bgcolor="#e7e7e7">
+              <td align="justify" th:text="${itgl}"></td>
+             </tr>
+             
+             <tr bgcolor="#e7e7e7">
+              <td align="justify" th:text="${ijk}"></td>
+             </tr>
+             
+             <tr bgcolor="#e7e7e7">
+              <td align="justify" th:text="${ialamat}"></td>
+             </tr>
+             
+             <tr bgcolor="#e7e7e7">
+              <td align="justify" th:text="${iagama}"></td>
+             </tr><!-- comment -->
+             
+             <tr bgcolor="#e7e7e7">
+              <td align="justify" th:text="${ikerja}"></td>
+             </tr><!-- comment -->
+             
+             <tr bgcolor="#e7e7e7">
+              <td align="justify" th:text="${inegara}"></td>
+             </tr><!-- comment -->
+             
+             <tr bgcolor="#19bd9b">
+                 <td colspan="3" align="center">Berlaku Seumur Hidup</a></td>
+             </tr>
+            </table>
+             
+        </body>
+</html>

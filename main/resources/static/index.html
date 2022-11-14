@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Input Data KTP</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body bgcolor=”#333333″>
+        <div class="container" style="margin-top: 140px;">
+		<div class="row"
+                     style="border: 5px #FFFFFF solid; border-radius: 40px; width: 33%; margin: 0 auto; padding: 30px;">
+			<div class="col-sm-8">
+                            <h1 align="center" style="background-color:#FFFFFF" <div>Pendaftaran KTP Baru</div>
+                            <th align=height:10px;" colspan="2" bgcolor="grey"> <font color="black" size="5">
+                            <form action="/tampildata" method="post" enctype="multipart/form-data">
+                                <table style="background-color: #FFFFFF">
+                                    
+                                    <tr>
+                                        <td>Nama Lengkap</td><td>:</td>
+                                        <td><input type="text" size="25" name="varnama" placeholder="Masukkan nama"></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Tanggal Lahir</td><td>:</td>
+                                        <td><input type="date" size="25" name="vartgl" placeholder="Masukkan Tanggal"></td>
+                                    </tr>
+                                     <tr>
+                                        <td>Jenis Kelamin</td><td>:</td>
+                                        <td><select name="varjk">
+                                                <option>Pilih</option>
+                                                <option>Laki - laki</option>
+                                                <option>Perempuan</option></select>
+                                        </td>
+                                    </tr>
+                                     <tr>
+                                        <td>Alamat</td><td>:</td>
+                                        <td><input type="text" size="25" name="varalamat" placeholder="Masukkan Alamat"></td>
+                                    </tr>
+                                     <tr>
+                                        <td>Agama</td><td>:</td>
+                                        <td><select name="varagama">
+                                                <option>Pilih</option>
+                                                <option>Islam</option>
+                                                <option>Kristen</option>
+                                                <option>Khatolik</option>
+                                                <option>Hindu</option>
+                                                <option>Budha</option></select>
+                                        </td>
+                                    </tr>
+                                     <tr>
+                                        <td>Pekerjaan</td><td>:</td>
+                                        <td><input type="text" size="25" name="varkerja" placeholder="Masukkan Pekerjaan"></td>
+                                    </tr>
+                                     <tr>
+                                        <td>Kewarganegaraan</td><td>:</td>
+                                        <td><select name="varnegara">
+                                                <option>Pilih</option>
+                                                <option>WNI</option>
+                                                <option>WNA</option></select>
+                                        </td>
+                                    </tr>
+                                     <tr>
+                                         <td style="fontsize: 10px">Masukkan Foto</td><td>:</td>
+                                        <td><input type="file" size="25"  name="varfoto" placeholder="Masukkan foto"></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p><center><input type="submit" value="Submit" ></center></p> 
+                                        </td>
+                                    </tr>
+                                </table>
+                                
+    </body>
+</html>
